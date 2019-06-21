@@ -41,7 +41,7 @@ public class TcpClientActivity extends AppCompatActivity
             if (msg.arg1 == ClientLastly.CLIENT_ARG)
             {
                 receiveData.append("接收到："+(String) msg.obj);
-                //收到数据
+                //收到数据 s
                 tvMessage.setText(receiveData);
                 receiveData.append("\r\n");
             }
